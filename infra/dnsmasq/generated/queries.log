@@ -1,0 +1,203 @@
+Sep 20 16:05:17 dnsmasq[77112]: started, version 2.93 cachesize 150
+Sep 20 16:05:17 dnsmasq[77112]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 20 16:05:17 dnsmasq[77112]: using nameserver 1.1.1.1#53
+Sep 20 16:05:17 dnsmasq[77112]: read /etc/hosts - 150 names
+Sep 20 16:33:27 dnsmasq[77112]: read /etc/hosts - 150 names
+Sep 20 16:33:27 dnsmasq[77112]: read /etc/hosts - 150 names
+Sep 20 16:34:57 dnsmasq[77112]: exiting on receipt of SIGTERM
+Sep 20 16:35:01 dnsmasq[77899]: started, version 2.93 cachesize 150
+Sep 20 16:35:01 dnsmasq[77899]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 20 16:35:01 dnsmasq[77899]: using nameserver 1.1.1.1#53
+Sep 20 16:35:01 dnsmasq[77899]: read /etc/hosts - 150 names
+Sep 20 16:35:58 dnsmasq[77899]: exiting on receipt of SIGTERM
+Sep 20 16:36:43 dnsmasq[78005]: started, version 2.93 cachesize 150
+Sep 20 16:36:43 dnsmasq[78005]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 20 16:36:43 dnsmasq[78005]: using nameserver 1.1.1.1#53
+Sep 20 16:36:43 dnsmasq[78005]: read /etc/hosts - 150 names
+Sep 20 16:44:05 dnsmasq[78005]: query[A] example.com from 127.0.0.1
+Sep 20 16:44:05 dnsmasq[78005]: forwarded example.com to 1.1.1.1
+Sep 20 16:44:05 dnsmasq[78005]: reply example.com is 104.20.23.154
+Sep 20 16:44:05 dnsmasq[78005]: reply example.com is 172.66.147.243
+Sep 20 18:38:09 dnsmasq[78005]: exiting on receipt of SIGTERM
+Sep 20 18:39:30 dnsmasq[78620]: started, version 2.93 cachesize 150
+Sep 20 18:39:30 dnsmasq[78620]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 20 18:39:30 dnsmasq[78620]: using nameserver 1.1.1.1#53
+Sep 20 18:39:30 dnsmasq[78620]: read /etc/hosts - 150 names
+Sep 20 18:40:54 dnsmasq[78620]: query[A] xtraz.icq.com from 192.168.0.11
+Sep 20 18:40:54 dnsmasq[78620]: forwarded xtraz.icq.com to 1.1.1.1
+Sep 20 18:40:54 dnsmasq[78620]: reply xtraz.icq.com is <CNAME>
+Sep 20 18:40:54 dnsmasq[78620]: reply www.icq.com is <CNAME>
+Sep 20 18:40:54 dnsmasq[78620]: reply www.ovip.icq.com is 95.163.61.100
+Sep 20 18:40:56 dnsmasq[78620]: query[AAAA] cb.icq.com from 192.168.0.11
+Sep 20 18:40:56 dnsmasq[78620]: forwarded cb.icq.com to 1.1.1.1
+Sep 20 18:40:56 dnsmasq[78620]: reply cb.icq.com is <CNAME>
+Sep 20 18:40:56 dnsmasq[78620]: reply srp.icq.com is <CNAME>
+Sep 20 18:40:56 dnsmasq[78620]: reply srpvip.evip.icq.com is <CNAME>
+Sep 20 18:40:56 dnsmasq[78620]: reply srp.ovip.icq.com is NODATA-IPv6
+Sep 20 18:40:56 dnsmasq[78620]: query[A] cb.icq.com from 192.168.0.11
+Sep 20 18:40:56 dnsmasq[78620]: cached cb.icq.com is <CNAME>
+Sep 20 18:40:56 dnsmasq[78620]: cached srp.icq.com is <CNAME>
+Sep 20 18:40:56 dnsmasq[78620]: cached srpvip.evip.icq.com is <CNAME>
+Sep 20 18:40:56 dnsmasq[78620]: forwarded cb.icq.com to 1.1.1.1
+Sep 20 18:40:56 dnsmasq[78620]: reply cb.icq.com is <CNAME>
+Sep 20 18:40:56 dnsmasq[78620]: reply srp.icq.com is <CNAME>
+Sep 20 18:40:56 dnsmasq[78620]: reply srpvip.evip.icq.com is <CNAME>
+Sep 20 18:40:56 dnsmasq[78620]: reply srp.ovip.icq.com is 178.237.20.30
+Sep 20 18:48:02 dnsmasq[78620]: exiting on receipt of SIGTERM
+Sep 20 18:48:35 dnsmasq[79023]: started, version 2.93 cachesize 150
+Sep 20 18:48:35 dnsmasq[79023]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 20 18:48:35 dnsmasq[79023]: using nameserver 1.1.1.1#53
+Sep 20 18:48:35 dnsmasq[79023]: read /etc/hosts - 150 names
+Sep 20 18:48:44 dnsmasq[79023]: exiting on receipt of SIGTERM
+Sep 20 18:49:03 dnsmasq[79082]: started, version 2.93 cachesize 150
+Sep 20 18:49:03 dnsmasq[79082]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 20 18:49:03 dnsmasq[79082]: using nameserver 1.1.1.1#53
+Sep 20 18:49:03 dnsmasq[79082]: read /etc/hosts - 150 names
+Sep 20 18:49:16 dnsmasq[79082]: exiting on receipt of SIGTERM
+Sep 20 18:51:23 dnsmasq[79248]: started, version 2.93 cachesize 150
+Sep 20 18:51:23 dnsmasq[79248]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 20 18:51:23 dnsmasq[79248]: using nameserver 1.1.1.1#53
+Sep 20 18:51:23 dnsmasq[79248]: read /etc/hosts - 150 names
+Sep 20 18:51:37 dnsmasq[79248]: exiting on receipt of SIGTERM
+Sep 20 18:54:00 dnsmasq[79445]: started, version 2.93 cachesize 150
+Sep 20 18:54:00 dnsmasq[79445]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 20 18:54:00 dnsmasq[79445]: using nameserver 1.1.1.1#53
+Sep 20 18:54:00 dnsmasq[79445]: read /etc/hosts - 150 names
+Sep 20 18:54:36 dnsmasq[79445]: query[A] notepad-plus-plus.org from 192.168.0.11
+Sep 20 18:54:36 dnsmasq[79445]: forwarded notepad-plus-plus.org to 1.1.1.1
+Sep 20 18:54:36 dnsmasq[79445]: reply notepad-plus-plus.org is 95.128.40.104
+Sep 20 18:54:37 dnsmasq[79445]: query[A] notepad-plus.sourceforge.net from 192.168.0.11
+Sep 20 18:54:37 dnsmasq[79445]: forwarded notepad-plus.sourceforge.net to 1.1.1.1
+Sep 20 18:54:37 dnsmasq[79445]: reply notepad-plus.sourceforge.net is <CNAME>
+Sep 20 18:54:37 dnsmasq[79445]: reply projects.sourceforge.net.cdn.cloudflare.net is 104.18.12.149
+Sep 20 18:54:37 dnsmasq[79445]: reply projects.sourceforge.net.cdn.cloudflare.net is 104.18.13.149
+Sep 20 18:55:22 dnsmasq[79445]: exiting on receipt of SIGTERM
+Sep 20 18:56:13 dnsmasq[79601]: started, version 2.93 cachesize 150
+Sep 20 18:56:13 dnsmasq[79601]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 20 18:56:13 dnsmasq[79601]: using nameserver 1.1.1.1#53
+Sep 20 18:56:13 dnsmasq[79601]: read /etc/hosts - 150 names
+Sep 20 19:01:03 dnsmasq[79601]: query[A] example.com from 192.168.0.11
+Sep 20 19:01:03 dnsmasq[79601]: forwarded example.com to 1.1.1.1
+Sep 20 19:01:03 dnsmasq[79601]: reply example.com is 172.66.147.243
+Sep 20 19:01:03 dnsmasq[79601]: reply example.com is 104.20.23.154
+Sep 20 19:01:48 dnsmasq[79601]: query[A] example.co from 192.168.0.11
+Sep 20 19:01:48 dnsmasq[79601]: forwarded example.co to 1.1.1.1
+Sep 20 19:01:48 dnsmasq[79601]: reply example.co is 172.67.143.199
+Sep 20 19:01:48 dnsmasq[79601]: reply example.co is 104.21.39.76
+Sep 20 19:05:39 dnsmasq[79601]: exiting on receipt of SIGTERM
+Sep 20 19:07:22 dnsmasq[80537]: started, version 2.93 cachesize 150
+Sep 20 19:07:22 dnsmasq[80537]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 20 19:07:22 dnsmasq[80537]: using nameserver 1.1.1.1#53
+Sep 20 19:07:22 dnsmasq[80537]: read /etc/hosts - 150 names
+Sep 20 19:09:45 dnsmasq[80537]: query[A] ars.oscar.aol.com from 192.168.0.11
+Sep 20 19:09:45 dnsmasq[80537]: forwarded ars.oscar.aol.com to 1.1.1.1
+Sep 20 19:09:45 dnsmasq[80537]: reply ars.oscar.aol.com is NXDOMAIN
+Sep 20 19:09:45 dnsmasq[80537]: query[A] ars.oscar.aol.com.home from 192.168.0.11
+Sep 20 19:09:45 dnsmasq[80537]: forwarded ars.oscar.aol.com.home to 1.1.1.1
+Sep 20 19:09:45 dnsmasq[80537]: reply ars.oscar.aol.com.home is NXDOMAIN
+Sep 20 19:09:47 dnsmasq[80537]: query[AAAA] c.icq.com from 192.168.0.11
+Sep 20 19:09:47 dnsmasq[80537]: forwarded c.icq.com to 1.1.1.1
+Sep 20 19:09:48 dnsmasq[80537]: reply c.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: reply c1.orange.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: reply c1.cdn.ovip.icq.com is NODATA-IPv6
+Sep 20 19:09:48 dnsmasq[80537]: query[A] c.icq.com from 192.168.0.11
+Sep 20 19:09:48 dnsmasq[80537]: cached c.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: cached c1.orange.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: forwarded c.icq.com to 1.1.1.1
+Sep 20 19:09:48 dnsmasq[80537]: reply c.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: reply c1.orange.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: reply c1.cdn.ovip.icq.com is 178.237.20.21
+Sep 20 19:09:48 dnsmasq[80537]: query[AAAA] welcome.icq.com from 192.168.0.11
+Sep 20 19:09:48 dnsmasq[80537]: forwarded welcome.icq.com to 1.1.1.1
+Sep 20 19:09:48 dnsmasq[80537]: reply welcome.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: reply www.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: reply www.ovip.icq.com is NODATA-IPv6
+Sep 20 19:09:48 dnsmasq[80537]: query[A] welcome.icq.com from 192.168.0.11
+Sep 20 19:09:48 dnsmasq[80537]: cached welcome.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: cached www.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: forwarded welcome.icq.com to 1.1.1.1
+Sep 20 19:09:48 dnsmasq[80537]: reply welcome.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: reply www.icq.com is <CNAME>
+Sep 20 19:09:48 dnsmasq[80537]: reply www.ovip.icq.com is 95.163.61.100
+Sep 20 19:09:49 dnsmasq[80537]: query[AAAA] icq.com from 192.168.0.11
+Sep 20 19:09:49 dnsmasq[80537]: forwarded icq.com to 1.1.1.1
+Sep 20 19:09:49 dnsmasq[80537]: reply icq.com is NODATA-IPv6
+Sep 20 19:09:49 dnsmasq[80537]: query[AAAA] icq.com.home from 192.168.0.11
+Sep 20 19:09:49 dnsmasq[80537]: forwarded icq.com.home to 1.1.1.1
+Sep 20 19:09:49 dnsmasq[80537]: reply icq.com.home is NXDOMAIN
+Sep 20 19:09:49 dnsmasq[80537]: query[A] icq.com from 192.168.0.11
+Sep 20 19:09:49 dnsmasq[80537]: forwarded icq.com to 1.1.1.1
+Sep 20 19:09:49 dnsmasq[80537]: reply icq.com is 95.163.61.100
+Sep 20 19:09:51 dnsmasq[80537]: query[AAAA] ar.atwola.com from 192.168.0.11
+Sep 20 19:09:51 dnsmasq[80537]: forwarded ar.atwola.com to 1.1.1.1
+Sep 20 19:09:51 dnsmasq[80537]: reply ar.atwola.com is <CNAME>
+Sep 20 19:09:51 dnsmasq[80537]: reply edge.gycpi.b.yahoodns.net is 2a00:1288:80:807::1
+Sep 20 19:09:51 dnsmasq[80537]: reply edge.gycpi.b.yahoodns.net is 2a00:1288:80:807::2
+Sep 20 19:09:51 dnsmasq[80537]: query[A] ar.atwola.com from 192.168.0.11
+Sep 20 19:09:51 dnsmasq[80537]: cached ar.atwola.com is <CNAME>
+Sep 20 19:09:51 dnsmasq[80537]: forwarded ar.atwola.com to 1.1.1.1
+Sep 20 19:09:51 dnsmasq[80537]: reply ar.atwola.com is <CNAME>
+Sep 20 19:09:51 dnsmasq[80537]: reply edge.gycpi.b.yahoodns.net is 87.248.119.251
+Sep 20 19:09:51 dnsmasq[80537]: reply edge.gycpi.b.yahoodns.net is 87.248.119.252
+Sep 20 19:13:43 dnsmasq[80537]: query[AAAA] xtraz.icq.com from 192.168.0.11
+Sep 20 19:13:43 dnsmasq[80537]: forwarded xtraz.icq.com to 1.1.1.1
+Sep 20 19:13:43 dnsmasq[80537]: reply xtraz.icq.com is <CNAME>
+Sep 20 19:13:43 dnsmasq[80537]: reply www.icq.com is <CNAME>
+Sep 20 19:13:43 dnsmasq[80537]: reply www.ovip.icq.com is NODATA-IPv6
+Sep 20 19:13:43 dnsmasq[80537]: query[A] xtraz.icq.com from 192.168.0.11
+Sep 20 19:13:43 dnsmasq[80537]: cached xtraz.icq.com is <CNAME>
+Sep 20 19:13:43 dnsmasq[80537]: cached www.icq.com is <CNAME>
+Sep 20 19:13:43 dnsmasq[80537]: forwarded xtraz.icq.com to 1.1.1.1
+Sep 20 19:13:43 dnsmasq[80537]: reply xtraz.icq.com is <CNAME>
+Sep 20 19:13:43 dnsmasq[80537]: reply www.icq.com is <CNAME>
+Sep 20 19:13:43 dnsmasq[80537]: reply www.ovip.icq.com is 95.163.61.100
+Sep 20 19:16:28 dnsmasq[80537]: query[AAAA] cb.icq.com from 192.168.0.11
+Sep 20 19:16:28 dnsmasq[80537]: forwarded cb.icq.com to 1.1.1.1
+Sep 20 19:16:28 dnsmasq[80537]: reply cb.icq.com is <CNAME>
+Sep 20 19:16:28 dnsmasq[80537]: reply srp.icq.com is <CNAME>
+Sep 20 19:16:28 dnsmasq[80537]: reply srpvip.evip.icq.com is <CNAME>
+Sep 20 19:16:28 dnsmasq[80537]: reply srp.ovip.icq.com is NODATA-IPv6
+Sep 20 19:16:28 dnsmasq[80537]: query[A] cb.icq.com from 192.168.0.11
+Sep 20 19:16:28 dnsmasq[80537]: cached cb.icq.com is <CNAME>
+Sep 20 19:16:28 dnsmasq[80537]: cached srp.icq.com is <CNAME>
+Sep 20 19:16:28 dnsmasq[80537]: cached srpvip.evip.icq.com is <CNAME>
+Sep 20 19:16:28 dnsmasq[80537]: forwarded cb.icq.com to 1.1.1.1
+Sep 20 19:16:29 dnsmasq[80537]: reply cb.icq.com is <CNAME>
+Sep 20 19:16:29 dnsmasq[80537]: reply srp.icq.com is <CNAME>
+Sep 20 19:16:29 dnsmasq[80537]: reply srpvip.evip.icq.com is <CNAME>
+Sep 20 19:16:29 dnsmasq[80537]: reply srp.ovip.icq.com is 178.237.20.30
+Sep 20 19:21:35 dnsmasq[80537]: query[AAAA] cb.icq.com from 192.168.0.11
+Sep 20 19:21:35 dnsmasq[80537]: forwarded cb.icq.com to 1.1.1.1
+Sep 20 19:21:35 dnsmasq[80537]: query[AAAA] cb.icq.com from 192.168.0.11
+Sep 20 19:21:35 dnsmasq[80537]: reply cb.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: reply srp.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: reply srpvip.evip.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: reply srp.ovip.icq.com is NODATA-IPv6
+Sep 20 19:21:35 dnsmasq[80537]: query[A] cb.icq.com from 192.168.0.11
+Sep 20 19:21:35 dnsmasq[80537]: cached cb.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: cached srp.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: cached srpvip.evip.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: forwarded cb.icq.com to 1.1.1.1
+Sep 20 19:21:35 dnsmasq[80537]: query[A] cb.icq.com from 192.168.0.11
+Sep 20 19:21:35 dnsmasq[80537]: cached cb.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: cached srp.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: cached srpvip.evip.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: reply cb.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: reply srp.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: reply srpvip.evip.icq.com is <CNAME>
+Sep 20 19:21:35 dnsmasq[80537]: reply srp.ovip.icq.com is 178.237.20.30
+Sep 21 09:46:54 dnsmasq[80537]: exiting on receipt of SIGTERM
+Sep 21 09:47:13 dnsmasq[87057]: started, version 2.93 cachesize 150
+Sep 21 09:47:13 dnsmasq[87057]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 21 09:47:13 dnsmasq[87057]: using nameserver 1.1.1.1#53
+Sep 21 09:47:13 dnsmasq[87057]: read /etc/hosts - 150 names
+Sep 21 09:48:27 dnsmasq[87057]: exiting on receipt of SIGTERM
+Sep 21 09:48:29 dnsmasq[87286]: started, version 2.93 cachesize 150
+Sep 21 09:48:29 dnsmasq[87286]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset no-nftset auth no-DNSSEC loop-detect no-inotify dumpfile
+Sep 21 09:48:29 dnsmasq[87286]: using nameserver 1.1.1.1#53
+Sep 21 09:48:29 dnsmasq[87286]: read /etc/hosts - 150 names
+Sep 21 10:11:59 dnsmasq[87286]: query[A] xtraz.icq.com from 192.168.0.24
+Sep 21 10:11:59 dnsmasq[87286]: forwarded xtraz.icq.com to 1.1.1.1
+Sep 21 10:12:00 dnsmasq[87286]: reply xtraz.icq.com is <CNAME>
+Sep 21 10:12:00 dnsmasq[87286]: reply www.icq.com is <CNAME>
+Sep 21 10:12:00 dnsmasq[87286]: reply www.ovip.icq.com is 95.163.61.100
