@@ -1,7 +1,70 @@
-# Lab setup guide (M0)
+# Lab setup guide
 
-Reproduces the ICQ 5.1 lab from scratch. Status: **written, not yet executed** on real
-hardware. Steps marked *(untested)* have not been run. Update this file as you go.
+Status: M0 lab verified on macOS (server) with XP and Windows 10 clients. The Ubuntu one-script
+install below is **written but not yet run on a real Ubuntu server** (see "Verifying the Ubuntu install").
+
+## Quick start on Ubuntu (server and gateway on one machine)
+
+```bash
+git clone <your-repo-url> nostalgia-sim && cd nostalgia-sim
+./scripts/install.sh
+```
+
+It installs the packages, writes `infra/lab.env` from the detected LAN IP, downloads and
+verifies Open OSCAR Server, installs systemd services (`nostalgia-oscar`, and dnsmasq if not
+`--no-dns`), opens the firewall ports if `ufw` is active, builds TDLib from source (15-40 min),
+builds the bridge, and prints the next steps. Re-running is safe. Useful options:
+`--no-dns`, `--skip-tdlib`, `--server-ip IP`, `--iface NAME`, `--jobs N`.
+
+Afterwards:
+
+```bash
+sudo systemctl status nostalgia-oscar          # logs: journalctl -u nostalgia-oscar -f
+infra/server/create-account.sh 100001 labpass1
+```
+
+Keep the server's IP fixed (DHCP reservation or netplan). A changed address silently breaks
+DNS and the ICQ Setup host (this happened once in the lab).
+
+### Verifying the Ubuntu install
+
+After `./scripts/install.sh` finishes, check (and record results in `docs/findings.md`):
+
+1. `systemctl is-active nostalgia-oscar dnsmasq` prints `active` twice; `sudo ss -ltnp | grep -E ':(5190|9898|8080)'`
+   shows the server (8080 on 127.0.0.1 only).
+2. From another machine: `nc -z <server-ip> 5190` succeeds and `nslookup example.com <server-ip>` answers.
+3. `infra/server/smoke-test.sh` passes.
+4. ICQ 5.1 on the XP box logs in (Setup host = server IP) and the query appears in `/var/log/nostalgia-dnsmasq.log`.
+5. Reboot the server; both services come back without manual steps (this is the M6 goal, checked early).
+6. Re-run `./scripts/install.sh --skip-tdlib`; it must finish without errors and change nothing important.
+7. `ls build/tg-probe` exists after the TDLib build (typically 30+ min on a small VPS; needs about 3 GB RAM per compile job, so pass `--jobs 1` or `2` on small machines).
+
+## Telegram (M2)
+
+1. Create API credentials at https://my.telegram.org (API development tools) with a
+   **secondary** Telegram account.
+2. Put them in `~/.config/nostalgia-sim/secrets.env` (the installer creates a 600-mode template):
+   ```
+   TG_API_ID=123456
+   TG_API_HASH=<32 hex characters from my.telegram.org>
+   ```
+   The TDLib session lives in `~/.local/share/nostalgia-sim/tdlib` (override with `TG_DATA_DIR`).
+   Both stay outside the repo.
+3. Build and run:
+   ```bash
+   scripts/build-tdlib.sh      # once (macOS: brew install gperf first)
+   scripts/build-bridge.sh
+   scripts/tg-probe.sh         # first run asks for phone number, code, and 2FA password
+   ```
+   Probe commands: `me`, `contacts`, `chats [N]`, `send <chat_id> <text>`, `typing <chat_id> [off]`,
+   `stats`, `quit`, `logout`. Incoming messages, presence and typing print as they arrive.
+4. Soak test: `scripts/tg-probe.sh --run-for-minutes 60`. During the run, drop the network
+   for a minute (e.g. disable Wi-Fi) and check the log shows `CONNECTION` going to
+   waiting/connecting and back to ready.
+
+## Manual lab setup (macOS, or step by step)
+
+Reproduces the ICQ 5.1 lab from scratch. Steps marked *(untested)* have not been run.
 
 ## Topology
 
