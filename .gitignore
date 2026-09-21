@@ -1,1 +1,21 @@
 .DS_Store
+
+# secrets and local state (never commit)
+infra/lab.env
+*.session
+tdlib-data/
+secrets/
+.env
+secrets.env
+
+# lab runtime: server database (accounts, password hashes), generated configs, logs, binaries
+infra/server/bin/
+infra/server/run/
+infra/dnsmasq/generated/
+docs/captures/*.pcap
+docs/captures/*.pcapng
+
+# build output
+build/
+build-logs/
+third_party/
